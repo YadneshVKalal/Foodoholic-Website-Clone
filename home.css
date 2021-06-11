@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+.body {
+    font-size: 16px;
+    overflow-x: hidden;
+    font-weight: normal;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 21px;
+    top: 22px;
+}
+.left div {
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 80px;
+}
+/* Home section  */
+#home{
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content img{
+    padding-top: 70px;
+    padding-left: 120px;
+    width: 935px;
+}
+.home-right{
+    position: absolute;
+    right: 200px;
+    top: 350px;
+
+}
+.home-right h1{
+    color: #fff;
+    line-height: 75px;
+    font-size: 60px;
+}
+.home-right p{
+    color: orange;
+    line-height: 60px;
+    font-size: 30px;
+}
+.home-right button{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+}
+.home-right button:hover{
+    background-color: black;
+}
+
+/* .featured-section */
+
+.featured h2{
+    text-align: center;
+    color: gray;    
+    margin-top: 50px;
+}
+.featured h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.featured h1:after{
+    content: '';
+    background-color: red;
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+}
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile .profile-img {
+  height: 400px;
+  width: 500px;
+  /* border-radius: 50%; */
+  /* filter: grayscale(100%); */
+  cursor: pointer;
+  /* transition: 400ms; */
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(100%);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 30px;
+  color: black;
+}
+.profile p {
+  color: black;
+  font-size: 18px;
+  margin-top: 20px;
+  /* text-align: justify; */
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    color: black;
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+  }
+
+  .heading span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+.more-link{
+    color: black;
+}
+.clear-fix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Welcome Page */
+.welcome{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #f4f4f4;
+    align-content: center;
+    min-height: 100vh;
+}
+.wel-sec{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    min-height: 79vh;
+    width: 85vw;
+
+}
+.welcome-content{
+  height: 100%;
+  width: 100%;
+  margin-left: 10%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text{
+  color: gray;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+.welcome-text:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 1px;
+  width: 50px;
+  margin-top: 2%;
+}
+.welcome-p{
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: lato,sans-serif;
+  color: #333;
+}
+.welcome button{
+  margin-left: 65px;
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+}
+.welcome button:hover{
+  background-color: black;
+}
+/* menucard section */
+
+.menu h2{
+  text-align: center;
+  color: gray;    
+  margin-top: 50px;
+}
+.menu h1{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+}
+.menu h1:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 10px auto;
+}
