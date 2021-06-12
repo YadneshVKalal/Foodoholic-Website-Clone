@@ -220,23 +220,140 @@
 .welcome button:hover{
   background-color: black;
 }
-/* menucard section */
 
-.menu h2{
-  text-align: center;
-  color: gray;    
-  margin-top: 50px;
+/* services section */
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
-.menu h1{
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.image-title{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20%;
+  font-size: 40px;
+  
+}
+.image-title:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 1px;
+  width: 50px;
+  margin: 10px auto;
+}
+.image-data{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
+  color: #333;
+}
+.image-btn{
+
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
+  background-color: white;
+  border: tomato;
+  border: 1px solid orangered;
+  padding: 5px;
+  margin-left: 30%;
+  cursor: pointer;
+}
+.image-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* menucard section */
+.menucard{
+  margin-top: 5%;
+  background-color: #f4f4f4;
+}
+.menu-price h2{
+  padding: 4%;
+  text-align: center;
+  color: gray;
+  font-size: 30px;    
+
+}
+.menu-price h1{
+  text-align: center;
+  margin-top: -35px;
   font-size: 40px;
 }
-.menu h1:after{
+.menu-price h1:after{
   content: '';
   background-color: red;
   display: block;
   height: 2px;
   width: 50px;
   margin: 10px auto;
+}
+.left-menu{
+  margin-top: 5%;
+  text-align: left;
+}
+.left-h3{
+  
+  padding: 20px;
+  font-size: 25px;
+}
+.left-h4{
+  margin-left: 1%;
+  padding: 5px;
+  font-size: 20px;
+}
+.right-menu{
+  margin-top: -28%;
+  text-align: right;
+}
+.right-h3{
+  margin-top: 1%;
+  margin-right: 2%;
+  padding: 20px;
+  font-size: 25px;
+}
+.right-h4{
+  margin-left: 15%;
+  text-align: center;
+  /* margin-left: 10%; */
+  padding: 5px;
+  font-size: 20px;
+}
+.right-h44{
+  margin-left: 18%;
+  text-align: center;
+  /* margin-left: 10%; */
+  padding: 5px;
+  font-size: 20px;
+}
+.right-h444{
+  margin-left: 22%;
+  text-align: center;
+  /* margin-left: 10%; */
+  padding: 5px;
+  font-size: 20px;
+}
+.menu-btn{
+  text-align: center;
+  padding: 10px;
+  margin-left: 48%;
+  margin-top: 3%;
+  font-size: 20px;
+  background-color: orange;
+  border: tomato;
+  cursor: pointer;
+}
+.menu-btn:hover{
+  background-color: black;
+  color: white;
 }
