@@ -230,7 +230,6 @@
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
@@ -272,7 +271,13 @@
   background-color: black;
   color: white;
 }
-
+/* .triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+} */
 /* menucard section */
 .menucard{
   margin-top: 5%;
@@ -323,21 +328,21 @@
   font-size: 25px;
 }
 .right-h4{
-  margin-left: 15%;
+  margin-left: 17%;
   text-align: center;
   /* margin-left: 10%; */
   padding: 5px;
   font-size: 20px;
 }
 .right-h44{
-  margin-left: 18%;
+  margin-left: 21%;
   text-align: center;
   /* margin-left: 10%; */
   padding: 5px;
   font-size: 20px;
 }
 .right-h444{
-  margin-left: 22%;
+  margin-left: 24%;
   text-align: center;
   /* margin-left: 10%; */
   padding: 5px;
@@ -346,14 +351,79 @@
 .menu-btn{
   text-align: center;
   padding: 10px;
-  margin-left: 48%;
+  margin-left: 45%;
   margin-top: 3%;
   font-size: 20px;
   background-color: orange;
   border: tomato;
   cursor: pointer;
+  margin-bottom: 2%;
 }
 .menu-btn:hover{
   background-color: black;
   color: white;
+}
+
+/* article section */
+
+.article-column {
+  position: relative;
+  text-align: center;
+  
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+.article-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.centered {
+  color: orange;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-h1 {
+  margin-left: 9%;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+/* testimonial setion */
+
+/* blog section */
+.blog-column {
+  float: left;
+  width: 25%;
+}
+.blog-row{  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.blog-row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.blog-row h2{
+  padding: 4%;
+  text-align: center;
+  color: gray;
+  font-size: 30px;    
+}
+.blog-row h2:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 20px auto;
 }
