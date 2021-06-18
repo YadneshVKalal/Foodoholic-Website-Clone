@@ -52,6 +52,7 @@
     font-size: 30px;
 }
 a:link {
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -189,61 +190,85 @@ a:hover {
 }
 
 /* Welcome Page */
+
+
+.container2{
+  background-color: #f4f4f4;
+  display: flex;
+}
+.box2{
+  margin-top: 30px;
+  width: 800px;
+  height: 700px;
+  margin-left: 100px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.box3{
+  margin-top: 30px;
+  width: 700px;
+  height: 700px;
+  margin-left: 10px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.box3 img{
+  height: 100%;
+}
 .welcome{
-    font-family: 'Playfair Display', serif;
-    display: grid;
-    background-color: #f4f4f4;
-    align-content: center;
-    min-height: 100vh;
+  font-family: 'Playfair Display', serif;
+  display: grid;
+  align-content: center;
+
 }
 .wel-sec{
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    min-height: 79vh;
-    width: 85vw;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  min-height: 79vh;
+  width: 85vw;
 
 }
 .welcome-content{
-  height: 100%;
-  width: 100%;
-  margin-left: 10%;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
+height: 100%;
+width: 100%;
+margin-left: 10%;
+  background: #fff;
+  /* display: flex; */
+  flex-direction: column;
 }
 
 .welcome-text{
-  color: gray;
-  margin-left: 5%;
-  margin-top: 15%;
+color: gray;
+margin-left: 2%;
+margin-top: 15%;
 }
 .welcome-text:after{
-  content: '';
-  background-color: red;
-  display: block;
-  height: 1px;
-  width: 50px;
-  margin-top: 2%;
+content: '';
+background-color: red;
+display: block;
+height: 1px;
+width: 50px;
+margin-top: 2%;
 }
 .welcome-p{
-  margin-left: 5%;
-  margin-top: 3%;
-  font-size: 20px;
-  font-family: lato,sans-serif;
-  color: #333;
+margin-left: 2%;
+margin-top: 3%;
+font-size: 20px;
+font-family: lato,sans-serif;
+color: #333;
 }
 .welcome button{
-  margin-left: 65px;
-  margin-top: 20px;
-  border: orangered;
-  background-color: orange;
-  color: white;
-  cursor: pointer;
-  width: 10%;
-  height: 40px;
+margin-left: 30px;
+margin-top: 20px;
+border: orangered;
+background-color: orange;
+color: white;
+cursor: pointer;
+width: 10%;
+height: 40px;
 }
 .welcome button:hover{
-  background-color: black;
+background-color: black;
 }
 
 /* services section */
