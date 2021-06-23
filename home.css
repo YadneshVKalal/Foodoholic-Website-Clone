@@ -22,6 +22,12 @@
     text-align: left;
     margin-left: 80px;
 }
+a{
+  color: black;
+}
+.blog-h3 a, .blog-date a{
+  color: gray;
+}
 /* Home section  */
 #home{
     height: 100vh;
@@ -115,8 +121,9 @@ a:hover {
 }
 
 .user-name {
+  font-family: 'pt serif', 'serif';
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 26px;
   color: black;
 }
 .user-name:hover{
@@ -288,7 +295,7 @@ background-color: black;
 .image-title{
   text-align: center;
   margin-top: 20%;
-  font-size: 40px;
+  font-size: 30px;
   
 }
 .image-title:hover{
@@ -332,6 +339,7 @@ background-color: black;
 	border-right: 25px solid transparent;
 	border-top: 50px solid #555;
 } */
+
 /* menucard section */
 .menucard{
   margin-top: 5%;
@@ -461,6 +469,7 @@ background-color: black;
 /* testimonial setion */
 
 /* blog section */
+
 /* .blog-column img{
   width: 400px;
   height: 300px;
