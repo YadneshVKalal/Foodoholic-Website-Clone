@@ -37,6 +37,10 @@
        color: orangered;
         text-decoration: none;
 }
+
+a{
+  color: black;
+}
 /* cake section */
 .container2{
     display: flex;

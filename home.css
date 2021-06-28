@@ -37,7 +37,7 @@ a{
     background-repeat: no-repeat;
 }
 .content img{
-    padding-top: 70px;
+    padding-top: 102px;
     padding-left: 120px;
     width: 935px;
 }
@@ -204,11 +204,10 @@ a:hover {
   display: flex;
 }
 .box2{
-  margin-top: 30px;
+  margin-top: 20px;
   width: 800px;
   height: 700px;
-  margin-left: 100px;
-  background-color: white;
+  margin-left: 40px;
   margin-bottom: 40px;
 }
 .box3{
@@ -240,7 +239,6 @@ height: 100%;
 width: 100%;
 margin-left: 10%;
   background: #fff;
-  /* display: flex; */
   flex-direction: column;
 }
 
@@ -304,7 +302,6 @@ background-color: black;
 }
 .image-title:after{
   content: '';
-  /* background-color: red; */
   display: block;
   height: 1px;
   width: 50px;
@@ -332,13 +329,7 @@ background-color: black;
   background-color: black;
   color: white;
 }
-/* .triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-top: 50px solid #555;
-} */
+
 
 /* menucard section */
 .menucard{
@@ -400,21 +391,18 @@ background-color: black;
 .right-h4{
   margin-left: 17%;
   text-align: center;
-  /* margin-left: 10%; */
   padding: 5px;
   font-size: 20px;
 }
 .right-h44{
   margin-left: 21%;
   text-align: center;
-  /* margin-left: 10%; */
   padding: 5px;
   font-size: 20px;
 }
 .right-h444{
   margin-left: 24%;
   text-align: center;
-  /* margin-left: 10%; */
   padding: 5px;
   font-size: 20px;
 }
@@ -435,7 +423,12 @@ background-color: black;
 }
 
 /* article section */
-
+.article-column img{
+  filter: grayscale(50%);
+}
+.article-column img:hover{
+  filter:brightness(100%);
+}
 .article-column {
   position: relative;
   text-align: center;
@@ -460,20 +453,102 @@ background-color: black;
 .centered-h1 {
   margin-left: 9%;
   color: white;
-  font-size: 28px;
+  font-size: 26px;
   position: absolute;
   top: 60%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
+.centered-h1 a{
+  color: white;
+}
+.centered-h1 a:hover{
+  color: orange;
+}
 /* testimonial setion */
 
-/* blog section */
+.testi-monial{
+  /* margin-top: 5%; */
+  background-color: #f4f4f4;
+}
+.testii-h2{
+  padding: 4%;
+  text-align: center;
+  color: gray;
+  font-size: 30px;    
 
-/* .blog-column img{
-  width: 400px;
-  height: 300px;
-} */
+}
+.testii-h1{
+  text-align: center;
+  margin-top: -35px;
+  font-size: 40px;
+}
+.testii-h1:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 10px auto;
+}
+
+.testi-div{     
+  width: 1300px;
+  height: 650px;
+  margin-left: 250px;
+  margin-top: 90px;
+}
+.testimonial{
+  display: flex;
+}
+.test1{
+  width: 45%;
+  height: 600px;
+  margin-left: 10px;
+  background-color: white;
+}
+.testi{
+  width: 900px;
+  height: 600px;
+  background-color: white;
+}
+.test-p{
+  margin-left: 20px;
+  margin-top: 30%;
+  font-size: 22px;
+  color: gray;
+}
+.test-p:after{
+  content: '';
+  background-color: red;
+  display: block;
+  height: 1px;
+  width: 40px;
+  margin-top: 40px;
+}
+.test-h1{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.test-h2{
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: gray;
+}
+/* home Name */
+
+.home-name{
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.home-name h1{
+  font-size: 18px;
+  text-align: center;
+}
+
+/* blog section */
 .blog{
   background-color: #f4f4f4;  
 }
@@ -599,7 +674,6 @@ footer{
   color: aqua;
 }
 .footer-bottom{
-  /* background: #000; */
   width: 100vw;
   padding: 20px 0;
   text-align: center;
@@ -611,4 +685,10 @@ footer{
 .footer-bottom span{
   opacity: .4;
   font-weight: 200;
+}
+.footer-bottom a{
+  color: white;
+}
+.footer-bottom a:hover{
+  color: orange;
 }
