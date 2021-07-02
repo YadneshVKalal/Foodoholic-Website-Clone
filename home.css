@@ -39,7 +39,7 @@ a{
 .content img{
     padding-top: 95px;
     padding-left: 120px;
-    width: 910px;
+    width: 850px;
     max-width: 100%;
     height: auto;
 }
@@ -243,14 +243,14 @@ a:hover {
 .box3{
   margin-top: 30px;
   width: 650px;
-  height: 670px;
+  height: 550px;
   margin-left: 10px;
   background-color: white;
   margin-bottom: 40px;
 }
 .box3 img{
   max-width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
 }
 .welcome{
@@ -388,6 +388,9 @@ background-color: black;
   background-color: black;
   color: white;
 }
+.image-btn:hover a{
+  color: white;
+}
 @media screen and (max-width: 990px) {
   .column {
     flex-direction: column;
@@ -484,6 +487,9 @@ background-color: black;
 }
 .menu-btn:hover{
   background-color: black;
+  color: white;
+}
+.menu-btn:hover a{
   color: white;
 }
 
@@ -716,6 +722,9 @@ background-color: black;
 }
 .b-btn:hover{
   background-color: black;
+  color: white;
+}
+.b-btn:hover a{
   color: white;
 }
 @media screen and (max-width: 990px) {
